@@ -4,7 +4,7 @@ Dot notation access to dictionary attributes.
 
 print(key1.key2.key3)
 
-"""python
+'''python
 class DotDict(dict):     
     """dot notation access to dictionary attributes"""      
     def __getattr__(*args):         
@@ -17,4 +17,4 @@ class DotDict(dict):
     
     # __setattr__ = dict.__setitem__     
     # __delattr__ = dict.__delitem__ 
- """
+ '''
