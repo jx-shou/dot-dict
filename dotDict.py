@@ -1,9 +1,5 @@
-
 import yaml
 
-
-
-    
 class DotDict(dict):     
     """dot notation access to dictionary attributes"""      
     def __getattr__(*args):         
